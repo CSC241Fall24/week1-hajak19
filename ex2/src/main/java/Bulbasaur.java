@@ -13,6 +13,14 @@ public class Bulbasaur {
         // Update the level
         // If the new level is 16 or higher but less than 32, evolve to Ivysaur
         // If the new level is 32 or higher, evolve to Venusaur
+        this.level = lv;
+        if (lv >= 16 && lv < 32) {
+            this.id = 2;
+        } else if (lv >= 32) {
+            this.id = 3;
+        } else {
+            this.id = 1;
+        }
     }
 
     // getLevel method
