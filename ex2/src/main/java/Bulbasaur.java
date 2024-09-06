@@ -56,9 +56,8 @@ public class Bulbasaur {
     // toString method
     @Override
     public String toString() {
-        // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return "Level " + this.level + ", ID: " + this.id;
+        return "Level: " + this.level + ", ID: " + this.id;
     }
 
     // equals method
